@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vault
+  labels:
+    environment: dev
+    tier: vault
+spec:
+  containers:
+    - name: vault
+      image: hashicorp/vault
+      resources: 
+        limits:
+          memory: "512M"
+          cpu: ".5m"
+      ports:
+        - containerPort: 8200
