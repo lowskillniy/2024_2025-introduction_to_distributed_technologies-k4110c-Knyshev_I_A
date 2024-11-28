@@ -6,7 +6,7 @@ Group: K4110c
 Author: [Knyshev Ivan Alekseevich](https://github.com/lowskillniy)  
 Lab: [Laboratory Work №3 "Certificates and Secrets in Minikube, Secure Data Storage"](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/education/labs2023_2024/lab3/lab3/)  
 Date of create: 26.11.2024  
-Date of finished: TBD  
+Date of finished: 28.11.2024  
 ### Теоретические сведения  
 - [ConfigMap](https://kubernetes.io/docs/concepts/configuration/configmap/)
   - объект API, позволяющий хранить неконфиденциальные данные в формате `ключ: значение`.
