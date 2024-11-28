@@ -4,7 +4,7 @@ Course: [Introduction to distributed technologies](https://github.com/itmo-ict-f
 Year: 2024/2025  
 Group: K4110c  
 Author: [Knyshev Ivan Alekseevich](https://github.com/lowskillniy)  
-Lab: [Laboratory Work №2 "Installing Docker and Minikube, My First Manifest"](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/education/labs2023_2024/lab2/lab2)  
+Lab: [Laboratory Work №2 "Deploying a Web Service in Minikube, Accessing the Web Interface of the Service, Monitoring the Service"](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/education/labs2023_2024/lab2/lab2)  
 Date of create: 12.11.2024  
 Date of finished: 14.11.2024  
 ### Ход работы  
