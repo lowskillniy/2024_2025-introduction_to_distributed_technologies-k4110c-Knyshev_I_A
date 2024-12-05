@@ -6,7 +6,7 @@ Group: K4110c
 Author: [Knyshev Ivan Alekseevich](https://github.com/lowskillniy)  
 Lab: [Laboratory Work №4 "Communication Networks in Minikube, CNI, and CoreDNS"](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/education/labs2023_2024/lab4/lab4/)  
 Date of create: 03.12.2024  
-Date of finished: TBD  
+Date of finished: 05.12.2024  
 ### Теоретические сведения  
 - [CNI](https://github.com/containernetworking/cni)  
   - спецификация и набор библиотек для конфигурирования сетевых интерфейсов Linux-контейнеров. Используется для настройки сети подов, в частности их IP-адресов. В рамках лабораторной работы используется [CNI Calico](https://docs.tigera.io/calico/latest/getting-started/kubernetes/minikube).  
@@ -45,7 +45,7 @@ spec:
 ```  
 4. Назначение нодам меток в соответствие манифесту ресурсов `IPPool`:  
 ![](img/protocol/3-multinode-label.png)  
-5. Для создания ресурса `IPPool` необходимо установить `calicoctl`, что требует создание ресурса на основе [манифеста](https://github.com/projectcalico/calico/blob/master/manifests/calicoctl.yaml):  
+5. Для создания ресурса `IPPool` необходимо установить `calicoctl`, что требует создание ресурсов на основе [манифеста](https://github.com/projectcalico/calico/blob/master/manifests/calicoctl.yaml):  
 ![](img/protocol/4-calicoctl-create.png)  
 6. Просмотр пулов IP-адресов по умолчанию:  
 ![](img/protocol/5-get-default-ippools.png)  
